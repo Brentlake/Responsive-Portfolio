@@ -4,12 +4,13 @@ background-color:#ededed;
 
 #header {
 	position:fixed;
-	top:0;
+	top:8px;
 	width:15%;
 	float:left;
 	background-color:#4aaaa5;
 	color:white;
 	left:5%;
+	text-align:center;
 }
 h2 {
 	color:#4aaaa5;
@@ -17,13 +18,14 @@ h2 {
 #nav{
 	position:relative;
 	top:0;
-	width:74%;
+	width:100%;
 	float:right;
 	text-align:right;
 	padding-top:25px;
 	padding-bottom:25px;
 	padding-right:80px;
 	background-color:white;
+
 
 }
 
