@@ -1,59 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>Basic-Portfolio</title>
-<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="UTF-8">
+	<title>Portfolio | Your Name</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header id="header"><h1>Brent Lake</h1></header>
-	
 
-	<nav id="nav"><a href="index.html">About</a> <a href="portfolio.html">Portfolio</a><a href="contact.html"> Contact</a></nav>
-		
-		<section id="section">
-	<h2>Portfolio</h2>
-	
-	<hr/>
-		<img class="image" src="assets/images/ipad.jpeg" alt="ipad"/>
-			<img class="image" src="assets/images/rpg.jpeg" alt="rpg"/>
-				<img class="image" src="assets/images/headphones.jpeg" alt="headphones"/>
-			<img class="image" src="assets/images/phone.jpeg" alt="phone"/>
-		<img class="image" src="assets/images/lcd.jpeg" alt="lcd"/>
-	
-	<div class="port">Hangman</div>
-		<div class="port">Rpg Game</div>
-			<div class="port">Trivia Game</div>
-		<div class="port">Rutgers Info Widget</div>
-	<div class="port">Rock Paper Scissors</div>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Your Name</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-		
-		
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
 
-		<p id="p"></p>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+				<h3>Hangman</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+				<h3>RPG Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+				<h3>Trivia Game</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+				<h3>Rutgers Info Widget</h3>
+			</div>
+			<div class="work">
+				<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+				<h3>Rock Paper Scissors</h3>
+			</div>
+
 		</section>
 
-<aside>
-	<h3>Connect With Me</h3>
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-	<div id="aside">
-		<a href="http://stackoverflow.com/users/7061916/brentlake">
-		<img class="icon" src="assets/images/so-icon.png" alt="stackoverflow"/>
-		</a>
-	
-		<a href="https://github.com/Brentlake">
-		<img class="icon" src="assets/images/github-logo.jpg" alt="github"/>
-		</a>
-		
-		<a href="https://www.linkedin.com/in/brenton-lake-726745129?trk=nav_responsive_tab_profile">
-		<img class="icon" src="assets/images/linkdin.jpg" alt="linkdin"/>
-		</a>
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
 		</div>
-		</aside>
-
-		<footer id="footer">Copyright2016 Brent Lake</footer>
-
-		
-
+	</footer>
 </body>
 </html>
-

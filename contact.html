@@ -1,64 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>Basic-Portfolio</title>
-<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="UTF-8">
+	<title>Contact | Your Name</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header id="header"><h1>Brent Lake</h1></header>
-	
 
-	<nav id="nav"><a href="index.html">About</a> <a href="portfolio.html">Portfolio</a><a href="contact.html"> Contact</a></nav>
-		
-		<section id="section">
-	<h2>Contact</h2>
-	
-	<hr/>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Your Name</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
 
-		
-		
-	<div>Name:
-		<form class="form1"></form>
-	</div>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Contact</h1>
 
-	<div>Email:
-		<form class="form1"></form>
-	</div>
-	<div>Message:
-		<form id="form2"></form>
-	</div>
-	<br>
+			<form id="contact-form">
+				<ul>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" placeholder="John Smith" required="required">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+					</li>
+					<li>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" required="required"></textarea>
+					</li>
+				</ul>
+				<input type="submit">
+			</form>
 
-	<form id="form3"><strong>SUBMIT</strong></form>
-
-
-
-		
 		</section>
 
-<aside>
-	<h3>Connect With Me</h3>
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
 
-	<div id="aside">
-		<a href="http://stackoverflow.com/users/7061916/brentlake">
-		<img class="icon" src="assets/images/so-icon.png" alt="stackoverflow"/>
-		</a>
-	
-		<a href="https://github.com/Brentlake">
-		<img class="icon" src="assets/images/github-logo.jpg" alt="github"/>
-		</a>
-		
-		<a href="https://www.linkedin.com/in/brenton-lake-726745129?trk=nav_responsive_tab_profile">
-		<img class="icon" src="assets/images/linkdin.jpg" alt="linkdin"/>
-		</a>
+				<img src="assets/images/github-128.png" class="social" alt="Github">
+				<img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn">
+				<img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow">
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<div class="container">
+			&copy; Copyright 2016 Your Name
 		</div>
-		</aside>
-
-		<footer id="footer">Copyright2016 Brent Lake</footer>
-
-		
-
+	</footer>
 </body>
 </html>
-
-
