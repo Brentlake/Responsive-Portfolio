@@ -39,7 +39,13 @@ h2 {
 	
 
 }
+@media screen and (max-height: 980px){
+	section{
+		height:80%;
+		width:30%;
 
+		
+	}
 .img1 {
 	background-size: auto;
 	height:200px;
